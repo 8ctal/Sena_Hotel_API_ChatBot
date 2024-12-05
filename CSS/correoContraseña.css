@@ -1,17 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:300);
 
-body{
-    height: 100vh;
-    overflow: hidden;
-    font-family: "Poppins";
+body {
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Poppins";
   background: #2f4858;
   color: #39a900;
 }
+
 .login-page {
   width: 400px;
   padding: 8% 0 0;
   margin: auto;
 }
+
 .form {
   position: relative;
   z-index: 1;
@@ -23,6 +25,7 @@ body{
   border-radius: 15px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
+
 .form input {
   font-family: "Poppins", sans-serif;
   outline: 0;
@@ -34,8 +37,9 @@ body{
   padding: 15px;
   box-sizing: border-box;
   font-size: 14px;
-  
+
 }
+
 .form button {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
@@ -51,11 +55,15 @@ body{
   transition: all 0.3 ease;
   cursor: pointer;
 }
-.form button:hover,.form button:active,.form button:focus {
-    background-color: #ffffff;
-    color: #39a900;
-    box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background-color: #ffffff;
+  color: #39a900;
+  box-shadow: 0 8px 24px 0 rgba(16, 39, 112, .2);
 }
+
 .form .message {
   margin: 15px 0 0;
   color: #b3b3b3;
@@ -65,4 +73,3 @@ body{
 .form .register-form {
   display: none;
 }
-
